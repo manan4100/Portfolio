@@ -36,3 +36,234 @@
     transform: rotate(360deg);
   }
 }
+
+.text-header{
+
+  background: linear-gradient(to bottom right,#c33764,#1d2671);
+}
+
+
+.text{
+  color: black;
+  /* background-color: red; */
+  font-family: "cursive";
+  text-shadow:  0 20px 20px rgba(0,0,0,.15);
+               
+}
+
+/* .Link:hover{
+  
+    color: white;
+    background-color: red;
+    font-family: "cursive";
+    text-shadow:  0 20px 20px rgba(0,0,0,.15);
+                 
+} */
+
+.text:hover {
+  /* background-color: whitesmoke; */
+  box-shadow: inset 100px 0 0 0 #D4145A;
+  border-radius: 30px;
+}
+/* 
+.text1:hover{
+  background-color: black;
+  height: 60px;
+  width: 60px;
+  transition: .5s;
+  border-radius: 20px;
+} */
+
+
+
+.pics {
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  top: -30px;
+  right: -506px;
+  /* right: 500;
+  top: 0;
+  display: block;
+  height: 275px;
+  width: 225px; */
+  /* position: absolute; */
+  /* right: 500; */
+  /* float: right; */
+}
+
+
+
+
+/* About Me Page CSS */
+.font{
+  font-family: 'Brush Script MT',cursive;
+  font-weight: bold;
+  font-size: 500%;
+  font-weight: 900;
+  text-decoration-color: rgb(5, 3, 3);
+  text-decoration-style: dotted;
+  text-decoration-line: underline;
+  text-decoration-thickness: 10px;
+  /* font-style: italic; */
+  /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.p-font{
+  font-family: URW Chancery L, cursive;
+  text-align: left;
+  color: black;
+  font-size: large;
+  font-weight: 900;
+  /* text-indent: 50px; */
+  word-spacing: 5px;
+  padding-left: 10px;
+  /* text-shadow: 3px 3px red; */
+  /* direction: ltr; */
+  /* line-height: 10%; */
+  /* letter-spacing: 4px; */
+  /* text-transform: capitalize; */
+  /* text-decoration: dotted; */
+}
+
+/* Qualification Page CSS */
+.qua-bg{
+ /* background-color: #E9ACBC,#d1c6f3; */
+ background: linear-gradient(to bottom right,#E9ACBC,#d1c6f3);
+}
+
+
+.qua-font{
+  font-family: URW Chancery L, cursive;
+  font-size: 500%;
+  font-weight: 900;
+  text-decoration-color: rgb(5, 3, 3);
+  text-decoration-style:solid;
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+}
+
+.qua-text{
+  color:red;
+  margin-top: 50px;
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 400px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+
+/* Professional Detail Page CSS */
+.pd-bg{
+  background-color:#a4fbfb;
+}
+
+.pd-font{
+  font-family: 'Brush Script MT',cursive;
+  font-size: 500%;
+  font-weight: 900;
+  text-decoration-color: rgb(5, 3, 3);
+  text-decoration-style:solid;
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+}
+
+.pd-text{
+  color:red;
+  margin-top: 50px;
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 400px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+/* IFAM Page CSS */
+
+
+.ifam-font{
+  font-family: 'Brush Script MT',cursive;
+  font-size: 500%;
+  font-weight: 900;
+  text-decoration-color: rgb(5, 3, 3);
+  text-decoration-style:solid;
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+}
+
+.ifam-bg{
+  background: linear-gradient(to bottom right,#DD2476,#FF512F);}
+
+.ifam-text{
+  color:#1D2671;
+  margin-top: 50px;
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 380px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+/* Contact Page CSS */
+.contact{
+  font-family: 'Brush Script MT',cursive;
+  font-size: 500%;
+  font-weight: 900;
+  text-decoration-line: underline;
+  /* text-decoration: underline;  same line no. 128*/
+  text-decoration-color: rgb(5, 3, 3);
+  text-decoration-style: dotted;
+  /* text-decoration-line: underline; */
+  text-decoration-thickness: 9px;
+  
+  /* text-shadow:#61dafb; */
+}
+
+/* .social-container {
+  background: #eee;
+  padding: 25px 70px;
+} */
+.color{
+  /* font-family: 'Snell Roundhand',cursive; */
+  background-color:#CFF4D2;
+  /* background: -webkit-linear-gradient(left, grey, grey 30%, white 30%, white); */
+}
+
+.social {
+  margin: 50px 20px;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+
+.social:hover {
+  transform: translateY(-2px);
+}
+
+.facebook {
+  color: #4968ad;
+}
+
+.instagram{
+  color: #bc2a8d;
+}
+
+.linkedin{
+  color: #0A66C2;
+}
+
+.github{
+  color: black;
+}
+
+.twitter{
+  color:#1DA1F2;
+}
+
+.telegram{
+  color: #0088CC;
+}
